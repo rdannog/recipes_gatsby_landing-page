@@ -16,17 +16,18 @@ export const LinksContainer = styled.section`
         align-items:center;
     }
     img{
-        margin-right:1em;
+        width:3vw;
+        margin-right:1vw;
         &:hover{
             cursor:pointer;
-            margin-bottom:1em;
+            margin-bottom:1vh;
         }
     }
     button{
-        font-size:1.5em;
+        font-size:1.3vw;
         background-color:transparent;
-        padding:0.8em 1.7em;
-        margin-left:1em;
+        padding:1.7vh 2vw;
+        margin-left:1vw;
         border:3px solid transparent;
         &:hover{
             cursor:pointer;
@@ -36,13 +37,13 @@ export const LinksContainer = styled.section`
     
 `
 export const Copyright = styled.section`
-height:20%;   
-background-color: #446061;
-display:flex;
-justify-content:center;
-align-items:center;
-p{
-    color:white;
-    font-size:1.2em; 
-}
+    height:20%;   
+    background-color: #446061;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    p{
+        color:white;
+        font-size:1vw; 
+    }
 `

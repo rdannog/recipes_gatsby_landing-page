@@ -5,7 +5,8 @@ import { Header } from "../components/header";
 import { Main } from "../components/main";
 import { Footer } from "../components/footer";
 import Hurme from "../fonts/Hurme/HurmeGeometricSans1.otf"
-export const GlobalStyle = createGlobalStyle`
+
+const GlobalStyle = createGlobalStyle`
 @font-face{
   font-family:"Hurme";
   src:url(${Hurme})

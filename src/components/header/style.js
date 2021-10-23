@@ -15,7 +15,7 @@ export const Content = styled.section`
 `
 
 export const LogoContainer = styled.div`
-    padding-left:4em;
+    padding-left:4.7vw;
     img{
         width:5vw;
         &:hover{
@@ -25,14 +25,14 @@ export const LogoContainer = styled.div`
 `
 
 export const MenuContainer = styled.div`
-    padding-right:3.4em;
+    padding-right:3vw;
     display:flex;
     justify-content:flex-end;
     button{
-        font-size:1.5em;
+        font-size:1.2vw;
         background-color:transparent;
-        padding:0.8em 1.7em;
-        margin-left:1em;
+        padding:0.8vw 3vh;
+        margin-left:1vw;
         border:3px solid transparent;
         &:hover{
             cursor:pointer;
@@ -43,13 +43,13 @@ export const MenuContainer = styled.div`
 
 export const IntroSection = styled.section`
     height:100vh;
-    font-size:8em;
+    font-size:7vw;
     letter-spacing: 15.75px;
     display:flex;
     justify-content:center;
     align-items:center;
     h1{
-        margin-bottom:1em;
+        margin-bottom:23vh;
     }
 `
 
