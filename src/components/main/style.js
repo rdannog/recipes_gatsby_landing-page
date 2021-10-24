@@ -34,6 +34,15 @@ export const LatestContainer = styled.section`
             }
         }
     }
+    @media (max-width:768px){
+        h2{
+            font-size:5vw;
+            &:after{
+                width:12vw;
+                left:12vw;
+            }
+        }
+    }
 `
 export const RecipeBox = styled.div`
     display:flex;
@@ -58,6 +67,7 @@ export const Recipes = styled.div`
             width:100%;
         }
     }
+    
 `
 export const TextBox = styled.div`
     height:45vh;
@@ -87,6 +97,16 @@ export const TextBox = styled.div`
                 width:10vw;
                 bottom:4vh;
                 left:20vw;
+            }
+        }
+    }
+    @media (max-width:768px){
+        p{
+            font-size:2.5vw;
+            &:before{
+                width:7vw;
+                bottom:4vh;
+                left:6vw;
             }
         }
     }
@@ -149,6 +169,20 @@ export const AboutContainer = styled.section`
             width:90%;
             margin-top:13vh;
             margin-bottom:15vh;
+        }
+    }
+    @media (max-width:768px){
+        h2{
+            font-size:4vw;
+            &:after{
+                width:6vw;
+                left:4vw;
+                top:2vh;
+            }
+        }
+        p{
+            width:85%;
+            font-size:1.5vw;
         }
     }
 `
