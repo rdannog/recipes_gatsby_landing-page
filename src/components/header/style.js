@@ -75,7 +75,7 @@ export const Content = styled.section`
     @media(max-width: 425px) {
         height:50vh;
     }
-    @media(max-width: 350px) {
+    @media(max-width: 375px) {
         height:25vh;
     }
 `
@@ -131,8 +131,7 @@ export const IntroSection = styled.section`
             letter-spacing: 5px;
         }
     }
-    @media(max-width: 350px) {
-        height:90vh;
+    @media(max-width: 375px) {
         h1{
             margin-top:10vh;
         }

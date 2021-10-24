@@ -35,7 +35,7 @@ export const LinksContainer = styled.section`
         }
     }
     @media(max-width:425px){
-        height:90vh;
+        height:85vh;
         width:100%;
         align-items:center;
         justify-content:space-evenly;
@@ -53,9 +53,6 @@ export const LinksContainer = styled.section`
             width:15vw;
             margin-right:5vw;
         }
-    }
-    @media(max-width:350px){
-        height:60vh;
     }
 `
 export const Copyright = styled.section`

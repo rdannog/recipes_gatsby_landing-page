@@ -44,7 +44,7 @@ export const LatestContainer = styled.section`
             }
         }
     }
-    @media(max-width: 350px) {
+    @media(max-width: 425px) {
         h2{
             font-size:10vw;
             &:after{
@@ -100,16 +100,7 @@ export const TextBox = styled.div`
             bottom:1.5vw;
         }
     }
-    @media (max-width:425px){
-        p{
-            font-size:7vw;
-            &:before{
-                width:10vw;
-                bottom:4vh;
-                left:20vw;
-            }
-        }
-    }
+   
     @media (max-width:768px){
         p{
             font-size:2.5vw;
@@ -120,7 +111,7 @@ export const TextBox = styled.div`
             }
         }
     }
-    @media(max-width: 350px) {
+    @media(max-width: 425px) {
         p{
             font-size:8vw;
             &:before{
@@ -205,7 +196,7 @@ export const AboutContainer = styled.section`
             font-size:1.5vw;
         }
     }
-    @media(max-width: 350px) {
+    @media(max-width: 425px) {
         h2{
             font-size:13vw;
             &:after{
