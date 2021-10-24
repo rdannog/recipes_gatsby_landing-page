@@ -23,6 +23,7 @@ export const LatestContainer = styled.section`
             top:4vh;
         }
     }
+    
     @media (max-width:425px){
         align-items:center;
         padding:0;
@@ -43,6 +44,15 @@ export const LatestContainer = styled.section`
             }
         }
     }
+    @media(max-width: 350px) {
+        h2{
+            font-size:10vw;
+            &:after{
+                width:22vw;
+                left:27vw;
+            }
+        }
+     }
 `
 export const RecipeBox = styled.div`
     display:flex;
@@ -107,6 +117,16 @@ export const TextBox = styled.div`
                 width:7vw;
                 bottom:4vh;
                 left:6vw;
+            }
+        }
+    }
+    @media(max-width: 350px) {
+        p{
+            font-size:8vw;
+            &:before{
+                width:17vw;
+                bottom:4vh;
+                left:20vw;
             }
         }
     }
@@ -185,6 +205,19 @@ export const AboutContainer = styled.section`
             font-size:1.5vw;
         }
     }
+    @media(max-width: 350px) {
+        h2{
+            font-size:13vw;
+            &:after{
+                width:16vw;
+                left:15vw;
+                top:2vh;
+            }
+        }
+        p{
+            font-size:6vw;
+        }
+    }
 `
 export const SubscribeContainer = styled.section`
     height:90vh;
@@ -210,6 +243,7 @@ export const SubscribeContainer = styled.section`
         font-size:1.3vw;
         padding-left:1vw;
         margin-bottom:5vh;
+        
     }
     button{
         font-size:1.2vw;
@@ -236,12 +270,19 @@ export const SubscribeContainer = styled.section`
             height:13vh;
             font-size:4vw;
             padding-left:5vw;
+            
         }
         button{
             font-size:5vw;
             font-weight: bolder;
             width: 90%;
             margin:0;
+        }
+    }
+    @media(max-width:250px){
+        height:60vh;
+        input{
+            height:9vh;
         }
     }
 `

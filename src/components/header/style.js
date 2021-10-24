@@ -74,7 +74,9 @@ export const Content = styled.section`
     align-items:center;
     @media(max-width: 425px) {
         height:50vh;
-
+    }
+    @media(max-width: 350px) {
+        height:25vh;
     }
 `
 
@@ -129,6 +131,14 @@ export const IntroSection = styled.section`
             letter-spacing: 5px;
         }
     }
+    @media(max-width: 350px) {
+        height:90vh;
+        h1{
+            margin-top:10vh;
+        }
+    }
+    
 `
+
 
 

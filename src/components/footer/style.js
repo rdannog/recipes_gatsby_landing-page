@@ -54,6 +54,9 @@ export const LinksContainer = styled.section`
             margin-right:5vw;
         }
     }
+    @media(max-width:350px){
+        height:60vh;
+    }
 `
 export const Copyright = styled.section`
     height:20%;   
