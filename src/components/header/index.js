@@ -28,9 +28,8 @@ export function Header(){
     return(
         <S.Container style={{backgroundImage:`url(${backgroundHeader.url})`}}>
             <S.Menu>
-                    <input type="checkbox" id="checkbox-menu"/>
-
                     <label for="checkbox-menu">
+                        <input type="checkbox" id="checkbox-menu"/>
                         <span></span>
                         <span></span>
                         <span></span>
