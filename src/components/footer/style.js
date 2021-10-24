@@ -34,7 +34,26 @@ export const LinksContainer = styled.section`
             border:3px solid #373737;
         }
     }
-    
+    @media(max-width:425px){
+        height:90vh;
+        width:100%;
+        align-items:center;
+        justify-content:space-evenly;
+        flex-direction:column-reverse;
+        div:nth-child(2){
+            flex-direction:column;
+        }
+        div:nth-child(1){
+            width:80%;
+        }
+        button{
+            font-size:5vw;
+        }
+        img{
+            width:15vw;
+            margin-right:5vw;
+        }
+    }
 `
 export const Copyright = styled.section`
     height:20%;   
@@ -45,5 +64,14 @@ export const Copyright = styled.section`
     p{
         color:white;
         font-size:1vw; 
+    }
+    @media(max-width:425px){
+        height:10vh;
+        padding:0.5vw 1vh;
+        p{
+            width:95%;
+            font-size:2.2vw;
+            word-break:break-all;
+        }
     }
 `

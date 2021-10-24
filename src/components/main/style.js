@@ -23,11 +23,25 @@ export const LatestContainer = styled.section`
             top:4vh;
         }
     }
+    @media (max-width:425px){
+        align-items:center;
+        padding:0;
+        h2{
+            font-size:10vw;
+            &:after{
+                width:25vw;
+                left:25vw;
+            }
+        }
+    }
 `
 export const RecipeBox = styled.div`
     display:flex;
+    align-items:center;
     justify-content:space-around;
-    
+    @media (max-width:425px){
+        flex-direction:column;
+    }
 `
 export const Recipes = styled.div`
     margin-top:15vh;
@@ -36,6 +50,13 @@ export const Recipes = styled.div`
     }
     &:hover{
      transform:scale(1.01)
+    }
+    @media (max-width:425px){
+       padding:3%;
+       margin-top:0;
+        img{
+            width:100%;
+        }
     }
 `
 export const TextBox = styled.div`
@@ -47,7 +68,6 @@ export const TextBox = styled.div`
     background-color:white;
     p{
         font-size:1.5vw;
-        text-transform:uppercase;
         padding-top:5vh;
         &:before{
             content:"";
@@ -60,10 +80,22 @@ export const TextBox = styled.div`
             bottom:1.5vw;
         }
     }
-
+    @media (max-width:425px){
+        p{
+            font-size:7vw;
+            &:before{
+                width:10vw;
+                bottom:4vh;
+                left:20vw;
+            }
+        }
+    }
 `
 export const BlankSpace = styled.div`
     height:30vh;
+    @media (max-width:425px){
+        height:5vh;
+    }
 `
 export const AboutContainer = styled.section`
     background-color:white;
@@ -95,6 +127,29 @@ export const AboutContainer = styled.section`
     }
     img{
         width:45vw;
+    }
+    @media (max-width:425px){
+        flex-direction:column;
+        div{
+            width:100%;
+        }
+        img{
+            width:100%;
+        }
+        h2{
+            font-size:10vw;
+            margin-top:12vh;
+            &:after{
+                width:15vw;
+                left:10vw;
+            }
+        }
+        p{
+            font-size:3.9vw;
+            width:90%;
+            margin-top:13vh;
+            margin-bottom:15vh;
+        }
     }
 `
 export const SubscribeContainer = styled.section`
@@ -132,6 +187,27 @@ export const SubscribeContainer = styled.section`
         &:hover{
             background-color:#373737;
             color:white;
+        }
+    }
+    @media(max-width:425px){
+        h2{
+            font-size:10vw;
+            letter-spacing: 2px;
+        }
+        p{
+            font-size:8vw;
+        }
+        input{
+            width:90%;
+            height:13vh;
+            font-size:4vw;
+            padding-left:5vw;
+        }
+        button{
+            font-size:5vw;
+            font-weight: bolder;
+            width: 90%;
+            margin:0;
         }
     }
 `
